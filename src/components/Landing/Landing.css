@@ -1,0 +1,103 @@
+.landing-container{
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+}
+
+
+.iphone-img-container{
+  width: 18.5rem;
+  height: 30.938rem;
+  /* flex: 1; */
+}
+
+.iphone-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.landing-text-container{
+    /* flex: 1; */
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 100px;
+
+}
+
+.landing-address-box{
+  width: 26.75rem;
+  height: 3.4rem;
+  margin: 3.125rem 0rem 0 0rem;
+  padding: 0.313rem 0.313rem 0.313rem 1.125rem;
+  border-radius: 9px;
+  border: solid 0.9px #eae9f2;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.landing-address-box input{
+    margin-left:8px;
+    border:none;
+    outline:none;
+    color:#696871;
+}
+
+.landing-address-box button{
+    width: 11.25rem;
+    height: 3rem;
+    margin: 0 0 0 5.813rem;
+    border-radius: 4.5px;
+    border:none;
+    color:white;
+    background-color: #f04037;
+    cursor: pointer;
+}
+.landing-address-box button:hover{
+    background-color:#e6655e;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-top: 40px;
+    }
+    .iphone-img-container{
+        margin: 0 auto;
+    }
+    .landing-text-container{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-left: 0px;
+    }
+
+.landing-address-box{
+    width: 290px;
+    height: 3.4rem;
+    margin: 3.125rem auto;
+    padding: 0.313rem 0.313rem 0.313rem 1.125rem;
+    border-radius: 9px;
+    border: solid 0.9px #eae9f2;
+    background-color: #fff;
+    border:1px solid;
+    display: flex;
+    align-items: center;
+  }
+  .landing-address-box button{
+    width: 200px !important;
+    height: 3rem;
+    margin: 0px;
+    border-radius: 4.5px;
+    border:none;
+    color:white;
+    background-color: #f04037;
+    cursor: pointer;
+}
+  
+}

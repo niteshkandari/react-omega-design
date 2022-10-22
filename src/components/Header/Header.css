@@ -1,0 +1,38 @@
+.header-container {
+  display: flex;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 5;
+  font-size: 0.8rem;
+}
+.menu-box span {
+  margin-right: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo-box {
+    margin-right: 18px;
+  }
+  .menu-box span {
+    margin-right: 9px;
+  }
+}

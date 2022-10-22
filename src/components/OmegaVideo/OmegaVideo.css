@@ -1,0 +1,15 @@
+.video-js .vjs-big-play-button{
+    color:#5454d4 !important;
+    background-color: white !important;
+    height:50px !important;
+    width:50px !important;
+    border-radius:50% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .video-js {
+        width:auto !important;
+        height:30vh !important;    
+    }
+
+}

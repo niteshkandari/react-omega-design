@@ -1,0 +1,22 @@
+.para{
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.9;
+    letter-spacing: .2px;
+    color: #19191b;
+}
+
+@media (max-width:768px) {
+    .para{
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.9;
+        letter-spacing: .2px;
+        color: #19191b;
+        padding:4px 20px 0 20px;
+    }  
+}
